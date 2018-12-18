@@ -1,6 +1,6 @@
 <template>
   <div id="home">
-    <h1>This is home.vue title: {{title}}</h1>
+    <h1>This is home title: {{title}}</h1>
   </div>
 </template>
 
@@ -9,7 +9,7 @@
     name: 'home',
     data () {
       return {
-        title: 'the title of home'
+        title: ''
       }
     }
   }
